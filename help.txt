@@ -1,0 +1,13 @@
+git useful commands:
+git config --global user.name="Ali Rahmani Firoozjaee"
+git config --global user.email= "rahmani@nit.ac.ir"
+git config --global --list  
+ssh-keygen -t ed25519 -C "rahmani@nit.ac.ir"
+cat ~/.ssh/id_ed25519.pub       {in bash or powershell} to copy the key
+github --- setting ---- ssh and gpg keys ----new ssh key --- enter data ---- add ssh key 
+ssh -T git@github.com        {To check connection}
+cd /path/to/your/repo
+git remote -v
+git remote set-url origin git@github.com:firoozjaee/your-repo-name.git
+git remote -v
+  
