@@ -8,6 +8,6 @@ github --- setting ---- ssh and gpg keys ----new ssh key --- enter data ---- add
 ssh -T git@github.com        {To check connection}
 cd /path/to/your/repo
 git remote -v
-git remote set-url origin git@github.com:firoozjaee/your-repo-name.git
+git remote add origin git@github.com:firoozjaee/your-repo-name.git
 git remote -v
   
